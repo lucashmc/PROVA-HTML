@@ -1,14 +1,16 @@
 body {
+    background: #8ad3e5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-    margin: 20px;
+    margin: 0px;
+    padding: 0;
 }
 
 header {
-    background-color: #017054;
+    background-color: #f1f1f1;
     padding: 30px;
     text-align: center;
-    box-shadow: red;
-    border-radius: 50vh;
+    box-shadow: rgb(60, 0, 95);
+    border-radius: 100vh;
     
 }
 
@@ -31,4 +33,19 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #6f00ff;
 }
