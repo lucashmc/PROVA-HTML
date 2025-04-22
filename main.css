@@ -1,12 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     margin: 20px;
 }
 
 header {
-    background-color: #ff0000;
-    padding: 20px;
+    background-color: #017054;
+    padding: 30px;
     text-align: center;
+    box-shadow: red;
+    border-radius: 50vh;
+    
 }
 
 .main {
@@ -21,7 +24,7 @@ button {
     margin-top: 10px;
     padding: 10px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(49, 0, 71);
     border: none;
     cursor: pointer;
 }
