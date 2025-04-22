@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -16,6 +15,7 @@
     <main>
         <section class="gastos">
             <h2>Registrar Gastos</h2>
+            
             <label for="categoria">Categoria</label>
             <select id="categoria">
                 <option value="transporte">Transporte</option>
@@ -23,6 +23,9 @@
                 <option value="lazer">Lazer</option>
                 <option value="saude">Saúde</option>
             </select>
+
+            <label for="descricao">Descrição</label>
+            <input type="text" id="descricao" placeholder="O que você comprou?" />
 
             <label for="valor">Valor (R$)</label>
             <input type="number" id="valor" placeholder="Digite o valor" />
