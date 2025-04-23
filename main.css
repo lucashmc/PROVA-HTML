@@ -1,16 +1,15 @@
 body {
-    background: #8ad3e5;
+    background-image: url(img/FUNDO\ DA\ PAGINA.jpg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     margin: 0px;
     padding: 0;
 }
 
 header {
-    background-color: #f1f1f1;
+    background-color: #1e82c5;
     padding: 30px;
     text-align: center;
-    box-shadow: rgb(60, 0, 95);
-    border-radius: 100vh;
+    
     
 }
 
@@ -22,18 +21,8 @@ header {
     margin-bottom: 20px;
 }
 
-button {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: rgb(49, 0, 71);
-    border: none;
-    cursor: pointer;
-}
 
-button:hover {
-    background-color: #45a049;
-}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -41,11 +30,31 @@ table {
 }
 
 th, td {
+    background-color: #e7b306;
     border: 1px solid #000000;
     padding: 8px;
     text-align: left;
 }
 
 th {
-    background-color: #6f00ff;
+    background-color: #58d107;
 }
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table button {
+    background-color: #f44336; 
+}
+
+table button:hover {
+    background-color: #e53935; }
